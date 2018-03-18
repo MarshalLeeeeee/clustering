@@ -43,7 +43,7 @@ def gmm(data, cluster_num, epoch, Debug = True, debug = 100):
 	p_margin = np.zeros(n)
 	member = np.zeros(k)
 	member_all = np.ones(k) * n
-	epsilon = 1e-150
+	epsilon = 1e-15
 	ll = -float('inf')
 	flag = 1
 	cm = plt.cm.get_cmap('rainbow')
