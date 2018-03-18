@@ -26,7 +26,7 @@ def gaussian(data, miu, Sigma, delta = 0):
 	return prob
 
 
-def gmm(data, cluster_num, epoch, Debug = True, debug = 100):
+def gmm(data, cluster_num, epoch, Debug = True, debug = 100, independent = False):
 
 	#matplotlib.use('Agg') 
 
@@ -135,6 +135,8 @@ def gmm(data, cluster_num, epoch, Debug = True, debug = 100):
 			for i in range(n):
 				data_reg = np.add(data[i], -1*cluster_miu[j])[np.newaxis,]
 				S = np.dot(data_reg.T, data_reg)
+				if independent:
+					S = np.diag(np.diag(S))
 				cluster_Sigma[j] = np.add(cluster_Sigma[j], r[i][j] * S)
 			cluster_Sigma[j] = cluster_Sigma[j] * (1.0 / member[j])
 		cluster_pi = np.true_divide(member, member_all)
@@ -196,22 +198,23 @@ if __name__ == '__main__':
 	x = np.array([5,5])
 	miu = np.array([0,0])
 	Sigma = np.eye(2) * 5
-	print(5*Sigma)
-	print(gaussian(x,miu,Sigma))
+	#print(5*Sigma)
+	#print(gaussian(x,miu,Sigma))
 	a = np.array([[1,2],[3,4],[5,6]])
-	print(np.sum(a, axis = 0))
-	print(np.sum(a, axis = 1))
-	print(np.log(x))
-	print(np.exp(-845))
+	#print(np.sum(a, axis = 0))
+	#print(np.sum(a, axis = 1))
+	#print(np.log(x))
+	#print(np.exp(-845))
 	data = np.array([[1,-2],[3,-4],[5,-6],[7,-8]])
 	cluster_miu = np.array([5,-5])
 	cluster_Sigma = np.zeros((2,2))
 	r = np.array([0.2,0.2,0.2,0.4])
 	for i in range(4):
 		data_reg = np.add(data[i], -1*cluster_miu)[np.newaxis,]
-		print(data_reg.T)
+		#print(data_reg.T)
 		S = np.dot(data_reg.T, data_reg)
-		print(S)
+		#print(S)
 		cluster_Sigma = np.add(cluster_Sigma, r[i] * S)
 	#cluster_Sigma = cluster_Sigma[j] * (1.0 / member[j])
 	print(cluster_Sigma)
+	print(np.diag(np.diag(cluster_Sigma)))
