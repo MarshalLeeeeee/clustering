@@ -12,3 +12,5 @@ You can use Para:Debug to dicide whether you wanna see the temporary result.<br/
 
 <h3>GMM.py</h3>
 <p>Use GMM model to do clustering.<br/>
+Add Para:independent to control the indeendency of the data in each dimension, default value is False.<br/>
+You can use Para:independent = True to reach the variance between Kmeans and GMM.<br/></p>
