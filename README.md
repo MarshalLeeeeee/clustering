@@ -10,3 +10,5 @@ You can either give your mean and standard differance to the dataset, to make th
 You can use Para:slow to control the convergence speed of the algorithm.<br/>
 You can use Para:Debug to dicide whether you wanna see the temporary result.<br/></p>
 
+<h3>GMM.py</h3>
+<p>Use GMM model to do clustering.<br/>
