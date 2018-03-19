@@ -13,6 +13,7 @@
 <li><p>You can use Para:slow to control the convergence speed of the algorithm.</p></li>
 <li><p>You can use Para:Debug to dicide whether you wanna see the temporary result.</p></li>
 <li><p>You can use Para:competitive to decide whether you want to use competitive algorithm to make adaption to the cluster_num automatically. The algorithm refers to RPCL, which gives the cluster a 'kick'. The algorithm measures the distance betwwen the cluster center and the point with high data density as the extent of 'kicking'.</p></li>
+<li><p>When you set Para:competitive to True, you can control the extent of adaption by setting Para:alpha and Para:beta.</p></li>
 </ul>
 
 <h3>GMM.py</h3>
