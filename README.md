@@ -18,7 +18,6 @@
 <h3>GMM.py</h3>
 <ul type = "circle">
 <li><p>Use GMM model to do clustering.</p></li>
-<li><p>Add Para:independent to control the indeendency of the data in each dimension, default value is False.</p></li>
 <li><p>You can use Para:Debug to dicide whether you wanna see the temporary result.</p></li>
-<li><p>You can use Para:independent = True to reach the variance between Kmeans and GMM.</p></li>
+<li><p>You can use Para:independent = True to reach the variance between Kmeans and GMM, where we modify the Sigma Matrix every iteration, but deem every dimension of data independent.</p></li>
 </ul>
