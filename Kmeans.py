@@ -27,7 +27,7 @@ def distance(data, cluster):
 	tmp = data - cluster
 	return np.dot(tmp, tmp.T)
 
-def k_means(data, cluster_num, epoch, slow = False, Debug = True, debug = 100, competitive = False, alpha = 0.1, beta = 10):
+def k_means(data, cluster_num, epoch, slow = False, Debug = True, debug = 100, competitive = False, alpha = 150, beta = 10):
 	# the data is a n*d matrix, where d is the dimension of a single data, and n is the number of the data.
 
 	d = data.shape[1]
