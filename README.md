@@ -22,3 +22,12 @@
 <li><p>You can use Para:Debug to dicide whether you wanna see the temporary result.</p></li>
 <li><p>You can use Para:independent = True to reach the variance between Kmeans and GMM, where we modify the Sigma Matrix every iteration, but deem every dimension of data independent.</p></li>
 </ul>
+
+<h3>GMM_sklearn.py</h3>
+<ul type = "circle">
+<li><p>Use sklearn to train GMM model to do clustering.</p></li>
+<li><p>You can use Para:max_cluster_num to set the maximal cluster number of the model.</p></li>
+<li><p>The script uses the AIC and BIC method to analysize the model, and we give out the best model of each method in full version.</p></li>
+<li><p>We also use Bayesian Gaussian Model to do the clustering job by varying Para:weight_concentration_prior and Para:weight_concentration_prior_type to do the comparison.</p></li>
+<li><p>You can see the result in demo/compare/</p></li>
+</ul>
