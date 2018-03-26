@@ -1,0 +1,231 @@
+var: 1
+aic bound distance: 0.852557
+bic bound distance: 1.000009
+aic bound distance: 1.001572
+bic bound distance: 1.000009
+aic bound distance: 0.704721
+bic bound distance: 1.000009
+aic bound distance: 1.001572
+bic bound distance: 1.000009
+aic bound distance: 0.700304
+bic bound distance: 1.000009
+aic bound distance: 0.718857
+bic bound distance: 1.000009
+aic bound distance: 0.870825
+bic bound distance: 1.000009
+aic bound distance: 0.705310
+bic bound distance: 1.000009
+aic bound distance: 0.719519
+bic bound distance: 1.000009
+aic bound distance: 0.702365
+bic bound distance: 1.000009
+aic average bound distance: 0.797760
+bic average bound distance: 1.000009
+var: 2
+aic bound distance: 0.891348
+bic bound distance: 1.000263
+aic bound distance: 0.794220
+bic bound distance: 1.018826
+aic bound distance: 0.790686
+bic bound distance: 1.000009
+aic bound distance: 0.859220
+bic bound distance: 1.148447
+aic bound distance: 0.927065
+bic bound distance: 1.000154
+aic bound distance: 1.305490
+bic bound distance: 1.003098
+aic bound distance: 0.850312
+bic bound distance: 1.002365
+aic bound distance: 0.910913
+bic bound distance: 1.000589
+aic bound distance: 0.925518
+bic bound distance: 1.000335
+aic bound distance: 1.351137
+bic bound distance: 1.000009
+aic average bound distance: 0.960591
+bic average bound distance: 1.017410
+var: 3
+aic bound distance: 3.414366
+bic bound distance: 1.445467
+aic bound distance: 3.131375
+bic bound distance: 1.148111
+aic bound distance: 1.295753
+bic bound distance: 1.233637
+aic bound distance: 1.387599
+bic bound distance: 1.521280
+aic bound distance: 1.424567
+bic bound distance: 1.445467
+aic bound distance: 1.329133
+bic bound distance: 1.423360
+aic bound distance: 1.645723
+bic bound distance: 1.203522
+aic bound distance: 1.606464
+bic bound distance: 1.134512
+aic bound distance: 1.147015
+bic bound distance: 1.378967
+aic bound distance: 1.912204
+bic bound distance: 1.501149
+aic average bound distance: 1.829420
+bic average bound distance: 1.343547
+var: 4
+aic bound distance: 2.064145
+bic bound distance: 1.863681
+aic bound distance: 3.956006
+bic bound distance: 2.187509
+aic bound distance: 1.293664
+bic bound distance: 1.886929
+aic bound distance: 1.547997
+bic bound distance: 1.840841
+aic bound distance: 3.131799
+bic bound distance: 1.510245
+aic bound distance: 1.790026
+bic bound distance: 1.765381
+aic bound distance: 5.600400
+bic bound distance: 1.296694
+aic bound distance: 6.733615
+bic bound distance: 1.739306
+aic bound distance: 1.916272
+bic bound distance: 1.753295
+aic bound distance: 5.770029
+bic bound distance: 1.899341
+aic average bound distance: 3.380395
+bic average bound distance: 1.774322
+var: 5
+aic bound distance: 10.350018
+bic bound distance: 2.782419
+aic bound distance: 5.682960
+bic bound distance: 1.994968
+aic bound distance: 6.807911
+bic bound distance: 2.855478
+aic bound distance: 2.278151
+bic bound distance: 1.584473
+aic bound distance: 4.493809
+bic bound distance: 2.111469
+aic bound distance: 5.997719
+bic bound distance: 2.154594
+aic bound distance: 3.338976
+bic bound distance: 2.347389
+aic bound distance: 4.365878
+bic bound distance: 2.136466
+aic bound distance: 3.417753
+bic bound distance: 2.215758
+aic bound distance: 2.372509
+bic bound distance: 1.591431
+aic average bound distance: 4.910568
+bic average bound distance: 2.177444
+var: 6
+aic bound distance: 3.326616
+bic bound distance: 2.643703
+aic bound distance: 3.565552
+bic bound distance: 2.140316
+aic bound distance: 3.140827
+bic bound distance: 2.995897
+aic bound distance: 7.374454
+bic bound distance: 2.581352
+aic bound distance: 10.651645
+bic bound distance: 2.711371
+aic bound distance: 3.320588
+bic bound distance: 2.538870
+aic bound distance: 5.232502
+bic bound distance: 2.001518
+aic bound distance: 10.387852
+bic bound distance: 2.967966
+aic bound distance: 8.789188
+bic bound distance: 2.489838
+aic bound distance: 2.876757
+bic bound distance: 2.334633
+aic average bound distance: 5.866598
+bic average bound distance: 2.540546
+var: 7
+aic bound distance: 3.721303
+bic bound distance: 3.296324
+aic bound distance: 9.215717
+bic bound distance: 3.099987
+aic bound distance: 2.998982
+bic bound distance: 2.880836
+aic bound distance: 10.993185
+bic bound distance: 3.063357
+aic bound distance: 7.769362
+bic bound distance: 2.852896
+aic bound distance: 6.165876
+bic bound distance: 2.474808
+aic bound distance: 3.009004
+bic bound distance: 2.759887
+aic bound distance: 2.504663
+bic bound distance: 3.968759
+aic bound distance: 7.525309
+bic bound distance: 3.450116
+aic bound distance: 2.996469
+bic bound distance: 3.175039
+aic average bound distance: 5.689987
+bic average bound distance: 3.102201
+var: 8
+aic bound distance: 3.106536
+bic bound distance: 4.200693
+aic bound distance: 3.403442
+bic bound distance: 2.778931
+aic bound distance: 3.105414
+bic bound distance: 4.268098
+aic bound distance: 3.088922
+bic bound distance: 2.851410
+aic bound distance: 8.101331
+bic bound distance: 2.922585
+aic bound distance: 3.942331
+bic bound distance: 3.978363
+aic bound distance: 4.381781
+bic bound distance: 3.989923
+aic bound distance: 10.471847
+bic bound distance: 3.247283
+aic bound distance: 8.283375
+bic bound distance: 2.447266
+aic bound distance: 4.662775
+bic bound distance: 3.439796
+aic average bound distance: 5.254775
+bic average bound distance: 3.412435
+var: 9
+aic bound distance: 14.017655
+bic bound distance: 3.932556
+aic bound distance: 4.669944
+bic bound distance: 4.070728
+aic bound distance: 9.196419
+bic bound distance: 5.156295
+aic bound distance: 8.391335
+bic bound distance: 4.118954
+aic bound distance: 11.746052
+bic bound distance: 4.034588
+aic bound distance: 3.093643
+bic bound distance: 3.370325
+aic bound distance: 15.194593
+bic bound distance: 3.356445
+aic bound distance: 11.123582
+bic bound distance: 4.347454
+aic bound distance: 12.519956
+bic bound distance: 3.370361
+aic bound distance: 3.791006
+bic bound distance: 4.229693
+aic average bound distance: 9.374418
+bic average bound distance: 3.998740
+var: 10
+aic bound distance: 4.295623
+bic bound distance: 4.711825
+aic bound distance: 12.352214
+bic bound distance: 3.365723
+aic bound distance: 11.662590
+bic bound distance: 4.338811
+aic bound distance: 15.203686
+bic bound distance: 5.165663
+aic bound distance: 5.614701
+bic bound distance: 5.750009
+aic bound distance: 7.193340
+bic bound distance: 4.578418
+aic bound distance: 4.384487
+bic bound distance: 4.790094
+aic bound distance: 15.595143
+bic bound distance: 4.689493
+aic bound distance: 9.062295
+bic bound distance: 3.356445
+aic bound distance: 14.124851
+bic bound distance: 5.788278
+aic average bound distance: 9.948893
+bic average bound distance: 4.653476
+
