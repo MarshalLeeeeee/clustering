@@ -176,6 +176,7 @@ def experimentVBEM(data, save_dir, max_cluster_num = 7):
 
 	concentration_types = ['dirichlet_process', 'dirichlet_distribution']
 	weights = [0.001,0.01,0.1,1,10,100,1000]
+	#weights = [1,10,100,1000]
 	cm = plt.cm.get_cmap('rainbow')
 	d = data.shape[1]
 

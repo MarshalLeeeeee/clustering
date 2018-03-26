@@ -63,10 +63,10 @@ def center(num, distance):
 		mean.append([np.cos(theta) * distance, np.sin(theta) * distance])
 	return mean
 
-def sigma(num, s):
+def sigma(num, s, var = 0):
 	sig = []
 	for i in range(num):
-		sig.append([[s,8],[8,s]])
+		sig.append([[s,var],[var,s]])
 	return sig
 
 def toTuple(arr):
@@ -242,15 +242,15 @@ def testVBEM(kp, k_num, number, distance, var):
 
 if __name__ == '__main__':
 	
-	kp1000 = [500,500]
+	kp1000 = [333,333,334]
 	number = 1000
-	k_num = 2
-	distance = 1
-	var = 4.706787243
+	k_num = 3
+	distance = 5
+	var = 1
 	save_dir = ''
 
-	testBound(kp1000, number, k_num, distance, '')
-	#testVBEM(kp1000,k_num,number,distance,var)
+	#testBound(kp1000, number, k_num, distance, '')
+	testVBEM(kp1000,k_num,number,distance,var)
 	
 	#cluster = Kmeans.k_means(data, 4, 1000, Debug = True, debug = 1, slow = True, competitive = True, alpha = 150)
 	#print("The cluster is: ")
