@@ -5,6 +5,7 @@
 <li><p>It is designed for testing the clustering algorithm.</p></li>
 <li><p>Within this script, data is generated based on Gaussian distribution, where you can dicide the dimension, the number and the actual number of clusters of the dataset.</p></li>
 <li><p>You can either give your mean and standard differance to the dataset, to make them randomly.</p></li>
+<li><p>Some experiment function have been encapsulated.</p></li>
 </ul>
 
 <h3>Kmeans.py</h3>
@@ -29,5 +30,6 @@
 <li><p>You can use Para:max_cluster_num to set the maximal cluster number of the model.</p></li>
 <li><p>The script uses the AIC and BIC method to analysize the model, and we give out the best model of each method in full version.</p></li>
 <li><p>We also use Bayesian Gaussian Model to do the clustering job by varying Para:weight_concentration_prior and Para:weight_concentration_prior_type to do the comparison.</p></li>
+<li><p>AIC, BIC, VBEM have been seperated as different functions, set Para:save to decide save figure or not.</p></li>
 <li><p>You can see the result in demo/compare/</p></li>
 </ul>
