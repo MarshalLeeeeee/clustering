@@ -42,15 +42,15 @@ def PCA_iter_major(X,lr=0.001,esp=1e-7):
 	w = np.random.rand(d,1)
 	Sigma = np.dot(X, np.transpose(X)) / float(n)
 	alpha = 1e0
-	loss = - np.dot(np.transpose(w), np.dot(Sigma,w)) / dist(w)
-	#loss = - np.dot(np.transpose(w), np.dot(Sigma,w)) + alpha * np.power((np.dot(np.transpose(w),w) - 1),2)
+	#loss = - np.dot(np.transpose(w), np.dot(Sigma,w)) / dist(w)
+	loss = - np.dot(np.transpose(w), np.dot(Sigma,w)) + alpha * np.power((np.dot(np.transpose(w),w) - 1),2)
 	cnt = 0
 	while(True):
 		#print('cnt: ', cnt)
 		#print('w: ', w)
 		#print('loss: ', loss)
-		deg =  (2 * np.dot(Sigma, w) * dist(w) - np.dot(np.transpose(w), np.dot(Sigma,w)) * 2 * w)/ np.power(dist(w),2)
-		#deg = - (-2 * np.dot(Sigma, w) + 2 * alpha * (w - 1))
+		#deg =  (2 * np.dot(Sigma, w) * dist(w) - np.dot(np.transpose(w), np.dot(Sigma,w)) * 2 * w)/ np.power(dist(w),2)
+		deg = - (-2 * np.dot(Sigma, w) + 2 * alpha * (dist(w) - 1) * 2 * w)
 		w += lr * deg
 		new_loss = -np.dot(np.transpose(w), np.dot(Sigma,w)) / dist(w)
 		#print('new loss: ', new_loss)
